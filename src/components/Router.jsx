@@ -3,30 +3,18 @@ import {
   BrowserRouter,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Home from './Home';
 import About from './About';
 import Blog from './Blog';
+import Navbar from './Navbar';
+import Projects from './Projects';
 
 const Router = () => {
   return (
     <BrowserRouter>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/blog">Blog</Link>
-            </li>
-          </ul>
-        </nav>
-
+      <Navbar />
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
@@ -35,6 +23,9 @@ const Router = () => {
           </Route>
           <Route path="/blog">
             <Blog />
+          </Route>
+          <Route path="/projects">
+            <Projects />
           </Route>
           <Route path="/">
             <Home />
