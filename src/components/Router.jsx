@@ -22,7 +22,7 @@ const Router = () => {
               <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/blog">Users</Link>
+              <Link to="/blog">Blog</Link>
             </li>
           </ul>
         </nav>
