@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 import Home from './Home';
 import About from './About';
-import Blog from './Blog';
 import Navbar from './Navbar';
 import Projects from './Projects';
 
@@ -20,9 +19,6 @@ const Router = () => {
         <Switch>
           <Route path="/about">
             <About />
-          </Route>
-          <Route path="/blog">
-            <Blog />
           </Route>
           <Route path="/projects">
             <Projects />
