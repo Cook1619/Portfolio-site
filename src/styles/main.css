@@ -1,0 +1,96 @@
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.content-fade-in {
+    animation: fadeIn ease 4s;
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.hand-wave {
+  animation-name: wave-animation;
+  animation-delay: 2.5s;
+  animation-iteration-count: 2;
+  transform-origin: 70% 70%;
+}
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(-10deg);
+    }
+    20% {
+        transform: rotate(12deg);
+    }
+    30% {
+        transform: rotate(-10deg);
+    }
+    40% {
+        transform: rotate(9deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
